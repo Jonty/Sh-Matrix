@@ -3,15 +3,16 @@ What is Sh Matrix?
 
 Unfortunately, no one can be told what Sh Matrix is. You have to see it for yourself.
 
-    towel:~ jonty$ ssh barbie
-    jonty@barbie:~$ cd shmatrix
-    (shmatrix)jonty@barbie:~/shmatrix$ cd /tmp
+    jonty@towel:~$ cd a_virtualenv/project
+    (a_virtualenv)jonty@barbie:~/a_virtual_env/project$ cd ~
+    jonty@towel:~$ cd another_virtualenv
+    (another_virtualenv)jonty@barbie:~/another_virtualenv$ cd /tmp
     jonty@barbie:/tmp$
 
 Why do my eyes hurt?
 ====================
 
-Because that was indecipherable line noise that you've never seen before. Let's try again.
+Because that was indecipherable line noise. Let's try again.
 
 What is Sh Matrix?
 ==================
@@ -34,3 +35,6 @@ Or
 
 Obviously you'll have to login again once this is done. But then you knew that, didn't you?
 
+P.S.
+====
+I am so, so, sorry. Blame @infovore for the number of horrible Matrix references.
