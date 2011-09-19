@@ -34,7 +34,3 @@ Or
     echo -en "\nsource ~/.shmatrix.sh" >> ~/.bashrc
 
 Obviously you'll have to login again once this is done. But then you knew that, didn't you?
-
-P.S.
-====
-I am so, so, sorry. Blame @infovore for the number of horrible Matrix references.
