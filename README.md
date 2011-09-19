@@ -33,4 +33,4 @@ Or
     curl https://raw.github.com/Jonty/Sh-Matrix/master/shmatrix.sh -o ~/.shmatrix.sh
     echo -en "\nsource ~/.shmatrix.sh" >> ~/.bashrc
 
-Obviously you'll have to login again once this is done. But then you knew that, didn't you?
+Obviously you'll have to `source ~/.bashrc` or restart your shells. But then you knew that, didn't you?
