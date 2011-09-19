@@ -1,7 +1,22 @@
-Sh Matrix
-=========
+What is Sh Matrix?
+==================
 
-Sh Matrix is a microscopic bash script that automatically activates and deactivates Python virtual environments created by the Virtualenv tool, regardless of where they are, or how they're laid out.
+Unfortunately, no one can be told what Sh Matrix is. You have to see it for yourself.
+
+    towel:~ jonty$ ssh barbie
+    jonty@barbie:~$ cd shmatrix
+    (shmatrix)jonty@barbie:~/shmatrix$ cd /tmp
+    jonty@barbie:/tmp$
+
+Why do my eyes hurt?
+====================
+
+Because that was indecipherable line noise that you've never seen before. Let's try again.
+
+What is Sh Matrix?
+==================
+
+Sh Matrix is a microscopic script that automatically activates and deactivates Python virtual environments, regardless of where virtualenv put them, or how they're laid out.
 
 Think of it as a less prescriptive virtualenvwrapper for people who think that ~1000 line bash scripts should be shot in the face.
 
@@ -19,13 +34,3 @@ Or
 
 Obviously you'll have to login again once this is done. But then you knew that, didn't you?
 
-Demo
-====
-
-Yeaaaaah, ascii demo time!
-
-    towel:~ jonty$ ssh barbie.com
-    Linux barbie 2.6.32-trunk-kirkwood #1 Mon Jan 11 10:57:12 UTC 2010 armv5tel
-    jonty@barbie:~$ cd shmatrix
-    (shmatrix)jonty@barbie:~/shmatrix$ cd /tmp
-    jonty@barbie:/tmp$
