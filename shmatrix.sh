@@ -1,7 +1,7 @@
 
 shmatrix () {
     cd $*
-    DIR=$PWD
+    DIR=$(pwd -P)
 
     while [ "$DIR" != '/' ] 
     do
