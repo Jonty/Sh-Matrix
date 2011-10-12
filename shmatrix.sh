@@ -1,13 +1,13 @@
 
 shmatrix () {
-    cd $*
+    cd "$@"
     DIR=$(pwd -P)
-
+    
     while [ "$DIR" != '/' ] 
     do
         
         ACTIVATE="$DIR/bin/activate"
-        if [ -e $ACTIVATE ]; then
+        if [ -e "$ACTIVATE" ]; then
 
             if [ "$VIRTUAL_ENV" != '' ]; then
                 if [ "$DIR" == "$VIRTUAL_ENV" ]; then
@@ -20,7 +20,7 @@ shmatrix () {
             source $ACTIVATE
 
         else
-            DIR=`dirname $DIR`
+            DIR=`dirname "$DIR"`
         fi
 
     done
