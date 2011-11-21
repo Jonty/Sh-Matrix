@@ -12,7 +12,7 @@ shmatrix () {
             # it means the shell reinitialised and we need to reactivate
             DEACTIVATE=$(type -t 'deactivate')
 
-            if [ "$VIRTUAL_ENV" != '' -a "$DEACTIVATE" != '']; then
+            if [ "$VIRTUAL_ENV" != '' -a "$DEACTIVATE" != '' ]; then
                 if [ "$DIR" == "$VIRTUAL_ENV" ]; then
                     return 0
                 else
