@@ -1,3 +1,4 @@
+alias cd=cd
 
 shmatrix () {
     cd "$@"
