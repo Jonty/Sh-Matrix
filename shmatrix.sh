@@ -1,7 +1,5 @@
-alias cd=cd
-
 shmatrix () {
-    cd "$@"
+    \cd "$@"
     DIR=$(pwd -P)
     
     while [ "$DIR" != '/' ] 
