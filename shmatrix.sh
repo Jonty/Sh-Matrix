@@ -1,5 +1,7 @@
+#!/bin/bash
+
 shmatrix () {
-    \cd "$@"
+    cd "$@"
     DIR=$(pwd -P)
     
     while [ "$DIR" != '/' ] 
@@ -19,10 +21,10 @@ shmatrix () {
                 fi
             fi
 
-            source $ACTIVATE
+            source "$ACTIVATE"
 
         else
-            DIR=`dirname "$DIR"`
+            DIR=$(dirname "$DIR")
         fi
 
     done
@@ -33,6 +35,6 @@ shmatrix () {
 }
 
 # Check we're not already in a virtualenv
-shmatrix $(pwd -P)
+shmatrix "$(pwd -P)"
 
 alias cd='shmatrix'
