@@ -4,10 +4,10 @@ What is Sh Matrix?
 Unfortunately, no one can be told what Sh Matrix is. You have to see it for yourself.
 
     jonty@towel:~$ cd a_virtualenv/project
-    (a_virtualenv)jonty@barbie:~/a_virtual_env/project$ cd ~
+    (a_virtualenv)jonty@towel:~/a_virtual_env/project$ cd ~
     jonty@towel:~$ cd another_virtualenv
-    (another_virtualenv)jonty@barbie:~/another_virtualenv$ cd /tmp
-    jonty@barbie:/tmp$
+    (another_virtualenv)jonty@towel:~/another_virtualenv$ cd /tmp
+    jonty@towel:/tmp$
 
 Why do my eyes hurt?
 ====================
